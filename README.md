@@ -2,7 +2,7 @@
 
 ## Table of Contents
 
-* [Dcomposing Widgets](./modules/Decomposing Widgets.md)
+* [Dcomposing Widgets](./modules/1-decomposing-widgets.md)
 
 ## Requirements
 
