@@ -3,6 +3,7 @@
 ## Modules
 
 * [Dcomposing Widgets](./modules/1-decomposing-widgets.md)
+* [Basic Stateful Widgets](./modules/2-basic-stateful-widgets.md)
 
 ## Requirements
 
