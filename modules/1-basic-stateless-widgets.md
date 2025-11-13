@@ -121,8 +121,10 @@ Notice that we pass a value to the `title` property of the banner.
 3. Put `Footer` after `TopBanner` using a component called `Column`:
 
 ```dart
-body: Column([
-    TopBanner(title: "My Cedula App"),
-    Footer(text: "My footer text")
-])
+body: Column(
+    children: [
+        TopBanner(title: "My Cedula App"),
+        Footer(text: "My footer text")
+    ]
+)
 ```
