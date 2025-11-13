@@ -67,3 +67,49 @@ Import as:
 ```dart
 import 'widgets/my_app.dart';
 ```
+
+### Exercise
+
+Let's create a simple banner.
+
+1. First create a stateless widget called `top_banner.dart`. Notice that this requires a `property` called `text` as specified in the constructor.
+
+```dart
+const TopBanner({super.key, required this.text});
+```
+
+```dart
+import 'package:flutter/material.dart';
+
+class TopBanner extends StatelessWidget {
+  final String text;
+
+  const TopBanner({super.key, required this.text});
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      width: double.infinity,
+      padding: const EdgeInsets.all(16),
+      color: Colors.deepPurple,
+      child: Text(
+        text,
+        style: const TextStyle(
+          color: Colors.white,
+          fontSize: 20,
+          fontWeight: FontWeight.bold,
+        ),
+        textAlign: TextAlign.center,
+      ),
+    );
+  }
+}
+```
+
+2. Import the widget to your main widget or main dart file and have it return the instance of the banner itself. For example:
+
+```dart
+runApp(TopBanner(title: "My Banner"));
+```
+
+Notice that we pass a value to the `title` property of the banner.
