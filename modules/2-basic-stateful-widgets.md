@@ -11,7 +11,9 @@ class SimpleFormWidget extends StatefulWidget {
   const SimpleFormWidget({super.key});
 
   @override
-  State<SimpleFormWidget> createState() => _SimpleFormWidgetState();
+  State<SimpleFormWidget> createState() {
+    return _SimpleFormWidgetState();
+  }
 }
 
 class _SimpleFormWidgetState extends State<SimpleFormWidget> {
