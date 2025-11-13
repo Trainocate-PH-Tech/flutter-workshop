@@ -1,5 +1,9 @@
 # Flutter Workshop
 
+## Table of Contents
+
+* [Dcomposing Widgets](./modules/Decomposing Widgets.md)
+
 ## Requirements
 
 1. Install VS Code
