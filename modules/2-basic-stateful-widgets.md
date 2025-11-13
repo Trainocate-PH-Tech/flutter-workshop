@@ -4,6 +4,30 @@
 
 A stateful widget is a component that manages the values of its own properties. If you need dynamic content that the user interacts with, we use a stateful widget.
 
+**Template**
+
+```dart
+import 'package:flutter/material.dart';
+
+class CedulaForm extends StatefulWidget {
+  const CedulaForm({super.key});
+
+  @override
+  State<CedulaForm> createState() {
+    return _CedulaFormState();
+  }
+}
+
+class _CedulaFormState extends State<CedulaForm> {
+  @override
+  Widget build(BuildContext context) {
+    return (
+      Text("Test")
+    );
+  }
+}
+```
+
 **Example Stateful Form Widget**
 
 ```dart
