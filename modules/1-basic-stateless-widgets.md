@@ -1,4 +1,4 @@
-# Decomposing Widgets
+# Basic Stateless Widgets
 
 ## Project Setup
 
