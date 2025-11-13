@@ -113,3 +113,16 @@ runApp(TopBanner(title: "My Banner"));
 ```
 
 Notice that we pass a value to the `title` property of the banner.
+
+### Exercise 2
+
+1. Create a stateless widget called `footer`
+2. Footer has a property called `text`
+3. Put `Footer` after `TopBanner` using a component called `Column`:
+
+```dart
+body: Column([
+    TopBanner(title: "My Cedula App"),
+    Footer(text: "My footer text")
+])
+```
