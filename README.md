@@ -1,6 +1,6 @@
 # Flutter Workshop
 
-## Table of Contents
+## Modules
 
 * [Dcomposing Widgets](./modules/1-decomposing-widgets.md)
 
