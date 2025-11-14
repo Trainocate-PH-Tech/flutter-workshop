@@ -4,6 +4,8 @@
 
 * [Basic Stateless Widgets](./modules/1-basic-stateless-widgets.md)
 * [Basic Stateful Widgets](./modules/2-basic-stateful-widgets.md)
+* [Common Widgets](./modules/3-common-widgets.md)
+* [Basic Navigation](./modules/4-basic-navigation.md)
 
 ## Requirements
 
