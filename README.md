@@ -6,6 +6,8 @@
 * [Basic Stateful Widgets](./modules/2-basic-stateful-widgets.md)
 * [Common Widgets](./modules/3-common-widgets.md)
 * [Basic Navigation](./modules/4-basic-navigation.md)
+* [Basic Content Switching](./modules/5-basic-content-switching.md)
+* [List View with Content Switching](./modules/6-list-view-with-content-switching.md)
 
 ## Requirements
 
