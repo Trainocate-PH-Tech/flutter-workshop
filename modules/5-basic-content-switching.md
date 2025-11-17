@@ -182,4 +182,9 @@ class _HomeScreenState extends State<HomeScreen> {
 - The middle content switches based on `_selectedIndex`.
 - `setState` triggers rebuilds; `AnimatedSwitcher` makes the change smooth.
 
-This pattern is a solid base for tabbed apps, and you can expand it with more complex pages, state management solutions, and custom transitions as your app grows.
+## Exercises
+
+1. Create a navigation for 2 views:
+
+* Viewing of all Cedula Forms (this can be temporary)
+* Form for applying for cedula (migrate the form here)

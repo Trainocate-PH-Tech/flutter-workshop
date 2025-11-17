@@ -248,3 +248,11 @@ Ideas:
 - A single `selectedItem` piece of state drives which child is displayed.
 - `setState` triggers rebuilds, and keys ensure smooth, correct animations.
 - This is a good base for master-detail experiences and can be expanded with navigation, typed models, and richer UI.
+
+## Exercises
+
+1. Create a navigation for 2 views:
+
+* Define a set of Cedular information (using `Set` and `Map`)
+* Display set of information in list view from previous exercise
+
