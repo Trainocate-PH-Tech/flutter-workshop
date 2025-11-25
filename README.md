@@ -10,6 +10,7 @@
 * [6 List View with Content Switching](./modules/6-list-view-with-content-switching.md)
 * [7 Passing Data](./modules/7-passing-data.md)
 * [8 Modal Dialogs](./modules/8-modal-dialogs.md)
+* [9 Map List Example](./modules/9-map-list-example.md)
 
 ## Requirements
 
