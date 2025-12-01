@@ -12,6 +12,19 @@ $db = new SQLite3('db.sqlite');
 // GET /api.php → list todos
 // ------------------------------
 if ($_SERVER['REQUEST_METHOD'] === 'GET') {
+    if (isset($_GET['id'])) {
+        $query = $db->prepare("SELECT id, content FROM todos WHERE id = :id LIMIT 1");
+        $query->bindValue(":id", (int)$_GET['id'], SQLITE3_INTEGER);
+
+        $todo = $query->execute()->fetchArray(SQLITE3_ASSOC);
+        if ($todo === false) {
+            echo json_encode(["error" => "Todo not found"]);
+        } else {
+            echo json_encode($todo);
+        }
+        exit;
+    }
+
     $result = $db->query("SELECT id, content FROM todos ORDER BY id DESC");
 
     $todos = [];
