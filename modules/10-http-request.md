@@ -2,6 +2,21 @@
 
 Allow making an HTTP request from client to server to fetch or post data.
 
+## Install HTTP Dependencies
+
+In `pubspec.yaml`:
+
+```
+dependencies:
+  http: ^1.1.0
+```
+
+Install the dependency
+
+```bash
+flutter pub get
+```
+
 ## Getting Data
 
 ```dart
