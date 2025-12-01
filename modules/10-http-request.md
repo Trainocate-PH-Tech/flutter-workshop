@@ -160,3 +160,52 @@ class _SimplePostWidgetState extends State<SimplePostWidget> {
   }
 }
 ```
+
+## The `Todo` model
+
+```dart
+class Todo {
+  final int id;
+  final String content;
+
+  Todo({
+    required this.id,
+    required this.content,
+  });
+
+  factory Todo.fromJson(Map<String, dynamic> json) {
+    return Todo(
+      id: json['id'],
+      content: json['content'],
+    );
+  }
+}
+```
+
+## `_todos` Property State
+
+```dart
+List<Todo> _todos = [];
+```
+
+## Decoding the JSON data
+
+* Notice that since a list is returned, the data type is `List<dynamic>` to account for any type of object
+* We call a method from the model `fromJson` to map an assumed `Map<String, dynamic>` data to the `List`
+* A state `_todos` is maintained and updated on fetch.
+
+```dart
+final res = await http.get(uri);
+
+if (res.statusCode == 200) {
+  final List<dynamic> data = jsonDecode(res.body);
+
+  final todos = data
+      .map((item) => Todo.fromJson(item))
+      .toList();
+
+  setState(() {
+    _todos = todos;   // _todos is List<Todo>
+  });
+}
+```
