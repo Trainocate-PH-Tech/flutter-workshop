@@ -5,6 +5,8 @@
 
 ## Step 1: Add dependency
 
+In your `pubspec.yaml` file:
+
 ```yaml
 dependencies:
   flutter_dotenv: ^5.1.0
