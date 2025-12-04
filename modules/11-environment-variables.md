@@ -10,13 +10,21 @@ dependencies:
   flutter_dotenv: ^5.1.0
 ```
 
-## Step 2: Create a `.env` file
+## Step 2: Add to `flutter` section as an asset:
+
+```yaml
+flutter:
+  assets:
+    - .env
+```
+
+## Step 3: Create a `.env` file
 
 ```yaml
 API_URL=http://localhost/todo/api.php
 ```
 
-## Step 3: Load in Dart
+## Step 4: Load in Dart
 
 ```dart
 import 'package:flutter_dotenv/flutter_dotenv.dart';
@@ -27,7 +35,7 @@ Future<void> main() async {
 }
 ```
 
-## Step 4: Read Variable
+## Step 5: Read Variable
 
 ```dart
 final apiUrl = dotenv.env['API_URL'];
