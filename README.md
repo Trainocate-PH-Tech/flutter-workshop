@@ -13,6 +13,7 @@
 * [9 Map List Example](./modules/9-map-list-example.md)
 * [10 HTTP Requests](./modules/10-http-request.md)
 * [11 Environment Variables](./modules/11-environment-variables.md)
+* [12 Deployment](./modules/12-deployment.md)
 
 ## Requirements
 
