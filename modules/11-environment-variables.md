@@ -18,6 +18,12 @@ flutter:
     - .env
 ```
 
+Afterwards run:
+
+```bash
+flutter pub get
+```
+
 ## Step 3: Create a `.env` file
 
 ```yaml
