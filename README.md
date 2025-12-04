@@ -25,6 +25,8 @@ Official install instructions can be found [here](https://docs.flutter.dev/insta
 
 Install Android Studio from [here](https://developer.android.com/studio)
 
+Android installation instructions can be found [here](https://docs.flutter.dev/platform-integration/android/setup)
+
 
 4. Check Runtime Requirements
 
